@@ -3,8 +3,8 @@ class Person
     @name = name
   end
 
-  def name=(name)
-    @name = name
+  def name
+    @name
   end
 
   def initialize(job)
